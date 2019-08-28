@@ -45,11 +45,11 @@
             }
 
             if (this.status != 200) {
-                target.value += "[Something went wrong: " + this.status + "]\n";
+                target.value += "[Something went wrong: " + this.status + "]\n"; //questo check è ovviamente da fare comunque.
                 return;
             }
 
-            target.value += this.responseText;
+            target.value += this.responseText; //volendo la callback potrebbe essere solo questa riga. Response text è una proprietà di xhr che viene riempita con il testo di risposta.
         }
 
         function getTextDetailed() {

@@ -35,6 +35,22 @@
         data.push('push');
         data.unshift('unshift');
         target.value += 'final status: ' + data + '\n';
+        
+        let data1 = [0,2,4,5,6];
+        let data2 = [];
+        let j = 0;
+
+        for(let i = 0; i < data1.length; i++){
+        	if(i===2){
+        		continue;
+        	} else {
+        		data2[j]=data1[i];
+        		j++;
+        	}
+        	
+        }
+        console.log(data2);
+        target.value += 'array: ' + data2 + '\n';
     </script>
 </body>
 </html>

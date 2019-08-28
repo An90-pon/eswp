@@ -1,0 +1,58 @@
+body{
+	background-color: black;
+	text-align:center;
+	fonts-family: "Courier New",Courier,monospace;
+}
+
+
+h1,h2,h3{
+	color: white;
+}
+
+p{
+	color: white;	
+}
+
+
+p.exp{
+	text-decoration:overline;	
+}
+
+#form{
+	
+}
+
+#lang{
+	
+}
+
+#aut{
+	
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+td,th{
+	border: 1px solid white;
+	padding: 3px;
+	text-align: center;
+}
+
+th{
+	background-color: black;	
+}
+
+td{
+	background-color: black;
+}
+
+[type=text]{
+	backgroud-color:
+}
+
+input:hover{
+	
+}
